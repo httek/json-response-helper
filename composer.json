@@ -1,0 +1,28 @@
+{
+    "name": "httek/json-response-helper",
+    "description": "Helper class to response proper API format",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "symfony/http-foundation": "*"
+    },
+    "autoload": {
+        "psr-4": {"HTTek\\Foundation\\": "src/"},
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "enhe",
+            "email": "dev@iluckin.cn"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit test/"
+    }
+}
